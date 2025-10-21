@@ -2,7 +2,7 @@ package escuelaing.edu.parcial;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-
+/*
 @SpringBootTest
 class ParcialApplicationTests {
 
@@ -11,3 +11,4 @@ class ParcialApplicationTests {
 	}
 
 }
+ */

@@ -1,16 +1,14 @@
 package escuelaing.edu.parcial.service;
 
-import java.util.stream.collectors;
 import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import org.springframework.annotation.service;
+import java.util.List;
 
+import org.springframework.stereotype.Service;
 
 @Service
 public class SecuenciaLuca{
  
-    public static List<Integer>lucasSecuencia(int n){
+    public static List<Integer> lucasSecuencia(int n){
         List<Integer> sequence = new ArrayList<>();
         if(n < 0){
             throw new IllegalArgumentException("El valor debe ser mayor igual a 0");
