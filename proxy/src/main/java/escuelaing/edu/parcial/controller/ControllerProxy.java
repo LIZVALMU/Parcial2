@@ -25,7 +25,8 @@ public class ControllerProxy{
             String backendUrl = getNextBackendUrl();
             RestTemplate restTemplate = new RestTemplate();
             String url = backendUrl + "/hello?value=" + n;
-            return restTemplate.getFordObject(url,Object.class)}
+            return restTemplate.getFordObject(url,Object.class);
+        }
 
             private String getNextBackendUrl(){
                 int index = currentIndex.getAndUpdate(i -> (i+1)% backendUrls.size());
