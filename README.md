@@ -63,8 +63,21 @@
 
 4. Se configura el grupo de seguridad 
     ![proyecto](img/grupoSeguridad.png)
-    
 
+5. Instalamos java en la instancia 
+    ![proyecto](img/instalacionPaquetes.png)
+
+6. Se conecta a la instancia 
+    ![proyecto](img/ejecucion.png)
+
+7. Se sube el proyecto a la instancia 
+    ![proyecto](img/subir.png)
+
+8. Se realiza una prueba
+    ![proyecto](img/prueba-desplegado.png)
+
+9. Se realiza la pagina web
+    ![proyecto](img/index.png)
 
 ## Autor
  - Alison Geraldine Valderrama Munar 
