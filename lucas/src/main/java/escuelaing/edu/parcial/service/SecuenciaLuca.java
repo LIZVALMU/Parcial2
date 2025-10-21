@@ -31,10 +31,4 @@ public class SecuenciaLuca{
         return sequence;
     }
 
-    public static List<Integer>secuenciaLuca= SecuenciaLuca.lucasSecuencia(n);
-        Map<String, Object> response = new HashMap<>();
-        response.put("operation","Secuencia de Lucas");
-        response.put("input", n);
-        response.put("output", SecuenciaLuca.stream().map(String::valueOf).collect(collectors.joining(",")));
-        return response;
 }

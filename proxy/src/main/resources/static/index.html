@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Secuencia de Lucas</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1>Secuencia Lucas</h1>
+<form action="/hello">
+    <label for="name">Ingrese el n valido:</label><br>
+    <input type="text" id="name" name="name" value="Ingrese su n valor"><br><br>
+    <input type="button" value="Submit" onclick="loadGetMsg()">
+    </form>
+    <div id="getrespmsg"></div>
+<script>
+    function loadGetMsg() {
+    let nameVar = document.getElementById("name").value;
+    if(!nameVar){
+        document.getElementById("getrespmsg").innerHTML = "Ingrese un valor valido"
+        return;  
+    }
+ }
+    xhttp.open("GET", "/hello?values=${encodeURIComponent(nameVar)}");
+    xhttp.send();
+</script>
+</body>
+</html>

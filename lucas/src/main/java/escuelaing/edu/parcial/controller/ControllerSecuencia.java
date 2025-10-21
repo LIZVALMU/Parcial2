@@ -18,7 +18,7 @@ public class ControllerSecuencia{
             try{
                 n = Integer.parseInt(value);
                 } catch(NumberFormatException e){
-                throw new IllegalArgumentException("El valor ingresado debe indicar un entero")
+                throw new IllegalArgumentException("El valor ingresado debe indicar un entero");
             }
         }
 }
