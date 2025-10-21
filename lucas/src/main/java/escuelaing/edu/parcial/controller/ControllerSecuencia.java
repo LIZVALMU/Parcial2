@@ -21,4 +21,12 @@ public class ControllerSecuencia{
                 throw new IllegalArgumentException("El valor ingresado debe indicar un entero");
             }
         }
+
+    List<Integer>lucasSecuencia = ParcialApplication.SecuenciaLuca(n);
+        Map<String, Object> response = new HashMap<>();
+        response.put("operation","Secuencia de Lucas");
+        response.put("input", n);
+        response.put("output", SecuenciaLuca.stream().map(String::valueOf).collect(collectors.joining(",")));
+        return response;
+       
 }

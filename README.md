@@ -11,7 +11,42 @@
 1. Iniciamos creando el proyecto en Spring Initializr
     ![proyecto](img/spring.png)
 
-## Construccion 
+## Ejecucción
+
+1)
+
+
+
+    #clonamos repositorio
+    git clone "https://github.com/LIZVALMU/Parcial2.git"
+
+2) 
+
+    
+    #compila (en cada modulo existen dos lucas y proxy)
+    mvn clean package
+
+3)
+
+    #compila (en cada modulo existen dos lucas y proxy)
+    mvn clean package
+
+
+
+
+##  Tecnología
+
+-Backend:
+    Java 17 + Spring Boot
+- Infraestrutura
+    AWS EC2
+    Maven
+-Protocolos
+    Http
+    
+
+
+    
 
 
 ## Instancias AWS
@@ -29,6 +64,10 @@
 4. Se configura el grupo de seguridad 
     ![proyecto](img/grupoSeguridad.png)
     
+
+
+## Autor
+ - Alison Geraldine Valderrama Munar 
 
 
 

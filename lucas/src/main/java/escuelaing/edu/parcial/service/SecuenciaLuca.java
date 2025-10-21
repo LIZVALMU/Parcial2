@@ -9,6 +9,7 @@ import org.springframework.annotation.service;
 
 @Service
 public class SecuenciaLuca{
+ 
     public static List<Integer>lucasSecuencia(int n){
         List<Integer> sequence = new ArrayList<>();
         if(n < 0){
@@ -30,5 +31,4 @@ public class SecuenciaLuca{
         }
         return sequence;
     }
-
 }
